@@ -1,4 +1,4 @@
-import re
+import r
 
 x = open(input("Enter File: \n")).read()
 y = re.findall('[0-9]+', x)
