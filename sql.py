@@ -1,4 +1,4 @@
-import sqlite3
+import sqlite
 
 conn = sqlite3.connect('orgdb.sqlite')
 cur = conn.cursor()
